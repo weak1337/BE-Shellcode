@@ -33,5 +33,6 @@ void thread_scan::scan_threads(){
 				}
 			} while (Thread32Next(hSnap, &lpe32));
 		}
+		CloseHandle(hSnap);
 	}
 }
