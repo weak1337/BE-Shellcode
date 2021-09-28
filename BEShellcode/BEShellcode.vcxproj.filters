@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode">
+      <UniqueIdentifier>{2d2bce5e-0664-4d0a-8243-be1bdecdc6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\veh">
+      <UniqueIdentifier>{0af2a934-9295-49f9-bcb1-a7f87289d8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\nt">
+      <UniqueIdentifier>{3d0acb10-7fe3-49a9-997a-6b6b07c6ee21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\systhreadfinder">
+      <UniqueIdentifier>{e3d4741f-b9e8-46ba-b538-1904d07aaebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\misc">
+      <UniqueIdentifier>{90a3a9b7-8101-45e7-b9c2-dfeb5d213a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\module_check">
+      <UniqueIdentifier>{b6a0f196-a7fc-4c43-b08b-77c7bc950faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\signatures">
+      <UniqueIdentifier>{c85a09b5-1b0e-4607-a26a-dc99644f8a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\beshellcode\thread_scan">
+      <UniqueIdentifier>{80951c72-b2ed-47d3-9df3-2f2b225cd32b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="beshellcode.cpp">
+      <Filter>Headerdateien\beshellcode</Filter>
+    </ClCompile>
+    <ClCompile Include="veh.cpp">
+      <Filter>Headerdateien\beshellcode\veh</Filter>
+    </ClCompile>
+    <ClCompile Include="nt.cpp">
+      <Filter>Headerdateien\nt</Filter>
+    </ClCompile>
+    <ClCompile Include="systhreadfinder.cpp">
+      <Filter>Headerdateien\beshellcode\systhreadfinder</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Headerdateien\beshellcode\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules.cpp">
+      <Filter>Headerdateien\beshellcode\module_check</Filter>
+    </ClCompile>
+    <ClCompile Include="sigs.cpp">
+      <Filter>Headerdateien\beshellcode\signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_scan.cpp">
+      <Filter>Headerdateien\beshellcode\thread_scan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="beshellcode.h">
+      <Filter>Headerdateien\beshellcode</Filter>
+    </ClInclude>
+    <ClInclude Include="veh.h">
+      <Filter>Headerdateien\beshellcode\veh</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>Headerdateien\nt</Filter>
+    </ClInclude>
+    <ClInclude Include="systhreadfinder.h">
+      <Filter>Headerdateien\beshellcode\systhreadfinder</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Headerdateien\beshellcode\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>Headerdateien\beshellcode\module_check</Filter>
+    </ClInclude>
+    <ClInclude Include="sigs.h">
+      <Filter>Headerdateien\beshellcode\signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_scan.h">
+      <Filter>Headerdateien\beshellcode\thread_scan</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
