@@ -28,7 +28,7 @@ void misc::check_KiUserExceptionDispatcher_hook() {
 
 void misc::check_integrity() {
     WORD* mem_cpy = (WORD*)GetProcAddress(GetModuleHandleA("vcruntime140.dll"), "memcpy");
-    WORD* mem_cmp = (WORD*)GetProcAddress(GetModuleHandleA("vcruntime140.dll"), "memcpy");
+    WORD* mem_cmp = (WORD*)GetProcAddress(GetModuleHandleA("vcruntime140.dll"), "memcmp");
     if ((mem_cpy && *mem_cpy == 0x25FF) || (mem_cmp && *mem_cmp == 0x25FF)) {
         beshellcode::report(beshellcode::report_ids::PatchedFunction);
     }
